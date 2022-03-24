@@ -1,0 +1,25 @@
+html {
+    background: rgba(0, 0, 0, .65) url("img/img2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.subtitulo {
+    font-size: 30px;
+}
+
+p {
+    margin: 50px;
+    font-size: 20px;
+}

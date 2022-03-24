@@ -1,0 +1,7 @@
+body {
+	background: #ED4264;
+	background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);
+	background: linear-gradient(to right, #FFEDBC, #ED4264);
+	font-family: 'Fira Mono', monospace;
+	font-family: 'Montserrat Alternates', sans-serif;
+}

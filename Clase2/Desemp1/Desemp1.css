@@ -1,0 +1,22 @@
+body {
+   background: #5f2c82;  
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  
+background: linear-gradient(to right, #49a09d, #5f2c82);
+}
+
+h1 {
+    font-family: 'Fira Mono', monospace;
+    color: #ffff;
+}
+
+p{
+    color: aliceblue;
+}
+
+section{
+    margin: 20px;
+}
+
+section.section1{
+    margin-top: 50px;
+}
