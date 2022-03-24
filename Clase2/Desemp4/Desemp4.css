@@ -1,0 +1,23 @@
+html {
+    background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.subtitulo {
+    font-size: 30px;
+}
