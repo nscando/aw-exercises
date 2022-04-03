@@ -1,0 +1,36 @@
+body {
+    background: #c514a2;
+    background: -webkit-linear-gradient(to right, #c514a2, #333399);
+    background: linear-gradient(to right, #c514a2, #333399);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    display: inline;
+    vertical-align: top;
+}
+
+li {
+    margin-right: 40px;
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h1.logo {
+    margin-top: 0;
+    margin-left: 60px;
+    float: left;
+    font-family: 'Monofett', cursive;
+    color: aliceblue;
+    font-size: 50px;
+}
