@@ -6,81 +6,63 @@
     padding: 0;
 }
 
-html {
-    width: 100%;
-    height: 100%;
-}
 
 body {
     font-family: 'Roboto Mono', monospace;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
+/*------ Contenedor Global ------*/
+.contenedor-global {
+    width: 1200px;
+    height: auto;
+    margin: 10px auto;
+    background: #212121;
 }
 
-li {
-    list-style: none;
+/*------ Header ------*/
+.header-contenedor {
+    width: 100%;
     display: inline-block;
+
 }
 
 header {
     width: 100%;
-    height: 150px;
+    height: 20%;
+    margin-top: 20px;
     background-color: black;
     display: inline-block;
 }
 
-header .header-redes-container {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    background-color: #47cfac;
-    justify-content: space-around;
-    align-items: center;
+header a {
+    text-decoration: none;
+    color: #fff;
 }
 
-header .header-redes-container .icons {
-    width: 300px;
-    height: auto;
-    border-radius: 50%;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px;
+header li {
+    list-style: none;
+    display: inline-block;
 }
 
-header ul li img {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
-header ul li img:hover {
-    width: 40px;
-    height: 40px;
-    transition: all 0.9s;
-}
-
+/*------ Navbar  ------*/
 nav {
     width: 100%;
     height: 100px;
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+
 }
 
 nav .nav-logo-container {
     margin-left: 50px;
+    float: left;
 }
 
 nav li {
-    display: inline-block;
     justify-content: space-between;
     align-items: center;
     margin-right: 50px;
+    float: right;
     text-transform: uppercase;
     margin-top: 30px;
 }
@@ -123,9 +105,7 @@ nav .nav-logo-link {
     font-weight: 700;
 }
 
-br {
-    margin: 0;
-}
+
 
 nav .nav-logo-subtitulo {
     font-size: 12px;
@@ -139,66 +119,70 @@ nav .nav-logo-link-letra {
     color: #ec7aa0;
 }
 
-
+/*------ Hero ------*/
 .hero {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 650px;
-    background: rgba(0, 0, 0, 0.6) url('./img/hero-backgorund.png');
+    width: 95%;
+    height: 400px;
+    display: inline-block;
+    margin: 10px 30px 10px 30px;
+    background-image: url('./img/hero-backgorund.png');
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    position: relative;
+    border-radius: 10px 10px 0px 0px;
 }
 
-
-.hero-text {
-    display: flex;
-    justify-items: center;
-    height: 100%;
-    margin-top: 200px;
-    text-align: center;
-    color: white;
+/*------ Contenedor Global Contenidos ------*/
+.contenidos {
+    height: 1300px;
+    background: #F5F5F5;
 }
 
-.hero-parrafo {
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 5px;
-    color: #fff;
-    text-align: center;
+hr {
+    width: 500px;
+    margin-left: 20px;
+    height: 0;
 }
 
-section .noticias-nfts-info {
-    width: 70%;
-    height: 850px;
+/*------ Contenedor noticias ------*/
+.contenidos .noticias {
+    width: 68%;
+    height: 600px;
     margin: 15px;
     float: left;
 }
 
-section .noticias-nfts-nuevos {
-    width: 26%;
-    height: 1100px;
-    margin: 15px;
-    background: green;
-    float: right;
-}
-
 section .noticias-nfts-info-detalle {
-    width: 22%;
-    height: 680px;
-    margin: 45px 25px;
+    width: 29%;
+    height: 480px;
+    margin: 20px 10px 20px 15px;
+    padding: 5px;
     background: #fff;
     float: left;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #000;
-    display: inline-block;
-
 }
 
+
+section .noticias-nfts-info-detalle img {
+    width: 85%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 5px;
+    border: outset;
+    border-radius: 30px;
+}
+
+section .noticias-nfts-info-detalle p {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 12px 18px;
+    color: #2a2a2a;
+    text-align: left;
+    overflow: hidden;
+}
 
 .noticias-nfts-info-detalle:hover>button {
     transition: all 0.9s;
@@ -214,9 +198,7 @@ section .noticias-nfts-info-detalle {
 .button-detalle {
     visibility: hidden;
     width: 100px;
-    height: 50px;
-    position: relative;
-    left: 40%;
+    height: 35px;
     background: #47cfac;
     border-radius: 30px;
     border: none;
@@ -224,80 +206,184 @@ section .noticias-nfts-info-detalle {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
+    float: left;
+    margin-left: 60px;
 }
 
-section .noticias-nfts-info-detalle img {
-    width: 96%;
-    height: 400px;
-    padding: 5px;
-    border: outset;
-    border-radius: 30px;
-}
+/*------ Contenedor Tips ------*/
 
-section .noticias-nfts-info-detalle p {
-    font-size: 17px;
-    font-weight: 700;
-    margin: 12px 18px;
-    color: #2a2a2a;
-    text-align: left;
-    overflow: hidden;
+.contenidos .contenidos-tips {
+    width: 68%;
+    height: 600px;
+    margin: 15px;
+    float: left;
 }
 
 section .tips-nfts-info {
-    width: 70%;
-    height: 700px;
+    width: 97%;
+    height: 90%;
+    margin: 5px;
+    margin-top: 10px;
+    float: left;
+
+}
+
+.tips-nfts-info-detalle {
+    width: 98%;
+    height: 200px;
+    margin: 10px 0px 40px 0px;
+}
+
+
+.tips-nfts-info-detalle img{
+    width: 28%;
+    height: 190px;
+    float: left;
+    padding: 5px;
+    border: solid 1px grey;
+}
+
+.tips-detalle-texto{
+    width: 65%;
+    height: 100%;
+    margin: 10px;
+    float: right;
+    font-size: small;
+}
+
+.tips-detalle-texto h1{
+    margin: 5px 0px 10px 0px;
+}
+
+.tips-detalle-texto a{
+    color: #388E3C;
+    text-decoration: none;
+    float: right;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tips-detalle-texto a:hover{
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.9s;
+}
+
+.tips-detalle-texto span{
+    color: #388E3C;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hr-tips{
+    width: 100%;
+    height: 1px;
+    background: grey;
+    margin: 10px 0px;
+}
+
+/*------ Contenedor Aside ------*/
+.contenidos .aside-nuevos {
+    width: 27%;
+    height: 900px;
     margin: 15px;
-    margin-top: 35px;
-    background: red;
-    float: left;
-
+    float: right;
 }
 
-section .tips-nfts-info-detalle {
-    width: 94%;
-    height: 300px;
-    margin: 30px 45px;
-    display: block;
-    background: blue;
-    float: left;
-
-}
-
-
-.nfts-titulos {
+section .titulo-aside {
     font-size: 40px;
     font-weight: 700;
-    margin-top: 30px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
     margin-bottom: 10px;
     color: #2a2a2a;
     text-align: left;
     text-transform: uppercase;
 }
 
-hr {
-    width: 900px;
-    margin-left: 45px;
+.aside-item2 {
+    width: 100%;
+    float: left;
+}
+
+section .aside-item2-img {
+    width: 43%;
+    height: 5%;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+section .aside-item2-img:hover {
+    width: 47%;
+    height: 8%;
+    margin: 1px;
+    transition: all 0.9s;
+
+}
+
+section .aside-item1-img {
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border: solid 1px grey;
+}
+
+section .aside-item1-img:hover {
+    width: 92%;
+    height: 110px;
+    transition: all 0.9s;
+    cursor: pointer;
+    margin: 0;
+}
+
+section .hr-aside-nuevos {
+    width: 200px;
+    margin-left: 25px;
+    margin-bottom: 10px;
     height: 0;
 }
 
+
+/* ------ h2 ------ */
+.titulos {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #2a2a2a;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+/*------ Footer ------*/
+
 footer {
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: black;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     color: #fff;
 
 }
 
-footer .footer-info {
-    width: 30%;
-    height: 200px;
-    margin: 25px;
-    display: flex;
+footer .footer-info-1 {
+    width: 40%;
+    margin: 10px;
     float: left;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
+
 }
+
+footer .footer-info-2 {
+    width: 25%;
+    margin: 10px;
+    float: left;
+}
+
+
