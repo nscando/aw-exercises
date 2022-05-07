@@ -105,8 +105,6 @@ nav .nav-logo-link {
     font-weight: 700;
 }
 
-
-
 nav .nav-logo-subtitulo {
     font-size: 12px;
     font-weight: 400;
@@ -375,7 +373,6 @@ footer {
 }
 
 
-
 footer .footer-info-1 {
     width: 40%;
     margin: 5px;
@@ -398,13 +395,13 @@ footer .footer-info-1 {
     margin: 25px;
 }
 
-.footer-link{
-        color: #FFA000;
+.footer-link {
+    color: #FFA000;
     text-decoration: none;
     float: right;
     font-size: 12px;
     font-weight: 600;
-    margin-right:20px ;
+    margin-right: 20px;
 }
 
 .footer-link:hover {
