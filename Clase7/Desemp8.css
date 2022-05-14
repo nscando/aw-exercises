@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid rgb(24, 151, 35); */
+}
+
+html {}
+
+.contenedor-general {
+    width: 960px;
+    height: auto;
+    margin: 10px auto;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid silver;
+}
+
+
+form {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid silver;
+}
+
+fieldset {
+    border: none;
+    margin: 5px 0 15px 5px;
+}
+
+li {
+    list-style: none;
+}
+
+.label-datos {
+    display: block;
+    margin: 0.2em 0 0.2em 0;
+}
+
+
+
+ul li div span {
+    float: left;
+    padding: 0.3em 0;
+
+}
+
+ul li {
+    margin: 0.4em;
+    padding: 0.4em;
+    width: 80%;
+}
+
+ul li .medio {
+    width: 48%;
+    height: auto;
+}
+
+ul li .tercio {
+    width: 35%;
+    height: auto;
+}
+
+ul li .dostercios {
+    width: 40%;
+    height: auto;
+}
+
+ul li .fullWidth {
+    width: 100%;
+    height: auto;
+}
+
+input#nombre, input#cp, input#apellido, input#ciudad, input#telefono {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+input#barrio, input#calle {
+    width: 92%;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select#provincia {
+    width: 50%;
+    height: auto;
+
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.titulos {
+    width: 99%;
+    box-sizing: border-box;
+    background: rgb(33, 124, 228);
+    padding: 20px;
+    margin: 1px auto;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
+    color: #fff;
+
+}
+
+
+
+.subscripcion {
+    width: 80%;
+    height: auto;
+    margin: 10px;
+}
+
+.subscripcion p {
+    margin: 10px;
+}
+
+fieldset p {
+    margin: 20px 0 0 0;
+    font-weight: bolder;
+}
+
+.subscripcion-checkbox {
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.span-checkbox {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    margin: 2px;
+    align-items: center;
+    padding: 0 0 2px 0;
+}
+
+.medios-pago {
+    width: 100%;
+    height: auto;
+    margin: 15px 0 20px 0;
+
+}
+
+.contenedor-boton {
+    width: 100%;
+    height: auto;
+    background: rgb(190, 135, 31);
+}

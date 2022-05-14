@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desemp 8</title>
+  <link rel="stylesheet" href="Desemp8.css">
+</head>
+
+<body>
+  <div class="contenedor-general">
+
+    <form action="#" method="post">
+
+      <div class="titulos">
+        <h1>Formulario de Suscripcion</h1>
+      </div>
+
+      <fieldset>
+        <ul>
+          <li class="">
+            <div>
+              <span class="medio">
+                <label class="label-datos" for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+              </span>
+
+              <span class="medio">
+                <label class="label-datos" for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+              </span>
+
+              <span class="fullWidth">
+                <label class="label-datos" for="address" required>* Calle Nro/Dpto/Piso</label>
+                <input type="text" id="calle">
+                <label class="label-datos" for="barrio">Barrio</label>
+                <input type="text" id="barrio">
+              </span>
+
+              <span class="dostercios">
+                <label class="label-datos" for="ciudad" required>*Ciudad</label>
+                <input type="text" id="ciudad">
+              </span>
+
+              <span class="tercio">
+                <label class="label-datos" for="name">Provincia</label>
+                <select name="provincia" id="provincia" required>
+                  <option value="val1">Pcia1</option>
+                  <option value="val2">Pcia2</option>
+                  <option value="val3">Pcia3</option>
+                  <option value="val4">Pcia4</option>
+                </select>
+              </span>
+
+            </div>
+          </li>
+
+          <li class="">
+            <div>
+
+              <span class="tercio">
+                <label class="label-datos" for="cp" required>*CP</label>
+                <input type="text" id="cp">
+              </span>
+
+              <span class="dostercios">
+                <label class="label-datos" for="tel" required>*Telefono</label>
+                <input type="text" id="telefono">
+              </span>
+
+
+            </div>
+          </li>
+        </ul>
+
+      </fieldset>
+
+      <div class="titulos">
+        <h3>Subscripcion</h3>
+      </div>
+
+      <div class="subscripcion">
+        <p>Usted debera aceptar la subscripcion de 1 año como minimo</p>
+        <fieldset>
+          <p>*% por categoria</p>
+          <ul>
+            <li>
+              <div class="subscripcion-checkbox">
+                <span class="span-checkbox">
+                  <input type="checkbox" name="movilidad" id="movilidad">
+                  <label for="movilidad">Movilidad y Pasajes ($120)</label>
+                </span>
+
+                <span class="span-checkbox">
+                  <input type="checkbox" name="informatica" id="informatica">
+                  <label for="informatica">Informatica y Tecnologia ($250)</label>
+                </span>
+
+                <span class="span-checkbox">
+                  <input type="checkbox" name="indumentaria" id="indumentaria">
+                  <label for="indumentaria">Indumentaria ($100)</label>
+                </span>
+
+                <span class="span-checkbox">
+                  <input type="checkbox" name="alimentos" id="alimentos">
+                  <label for="alimentos">Alimentos ($100)</label>
+                </span>
+
+                <span class="span-checkbox">
+                  <input type="checkbox" name="compras" id="compras">
+                  <label for="compras">Compras via Web ($130)</label>
+                </span>
+
+                <span class="span-checkbox">
+                  <input type="checkbox" name="otros" id="otros">
+                  <label for="otros">Otros ($90)</label>
+                </span>
+
+              </div>
+            </li>
+          </ul>
+
+        </fieldset>
+      </div>
+
+      <div class="medios-pago">
+        <div class="titulos">
+          <h3>Informacion de la Tarjeta de Credito</h3>
+        </div>
+
+        <div class="info">
+          <div class="img">
+            <img src="" alt="">
+          </div>
+          <div class="medios-texto">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quasi.</p>
+          </div>
+        </div>
+
+      </div>
+    </form>
+
+    <div class="contenedor-boton">
+      <button type="submit">Continuar</button>
+    </div>
+  </div>
+</body>
+
+</html>
