@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desemp 2</title>
+</head>
+
+<body>
+
+    <div class="contenedor-general">
+        <form action="#">
+            <div class="titulo">
+                <h1>Conversor de Monedas</h1>
+            </div>
+            <fieldset>
+                <ul>
+                    <li>
+                        <span>
+                            <label class="label-pesos" for="pesos">Pesos:</label>
+                            <input type="number" name="pesos" id="pesos1" placeholder="Pesos" required>
+                            <button type="button" onclick="cambioEuro()" id="btn-pesos">convertir a euros</button>
+                            <label class="label-euros" for="euros">Euros:</label>
+                            <input type="text" name="euros" id="resultado-euro" placeholder="Euros">
+                        </span>
+                    </li>
+                    <hr>
+                    <li>
+                        <span>
+                            <label class="label-pesos" for="pesos">Pesos:</label>
+                            <input type="number" name="pesos" id="pesos2" placeholder="Pesos" required>
+                            <button type="button" onclick="cambioDolar()" id="btn-pesos">convertir a dolar</button>
+                            <label class="label-dolar" for="dolar">Dolares:</label>
+                            <input type="text" name="dolar" id="resultado-dolar" placeholder="Dolares">
+                        </span>
+                    </li>
+                </ul>
+            </fieldset>
+
+        </form>
+    </div>
+
+</body>
+<script type="text/javascript" src="./index.js"></script>
+
+</html>
