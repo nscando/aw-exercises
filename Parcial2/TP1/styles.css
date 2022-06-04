@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*------ Contenedor Global ------*/
+.contenedor-global {
+    width: 1000px;
+    height: auto;
+    margin: 2px auto;
+    background: #edeeb3;
+}
+
+/*------ Header - Navbar ------*/
+
+.header-contenedor {
+    width: 100%;
+    height: auto;
+    background-color: #3d3b3c;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 0 5px 13px;
+}
+
+.nav-link {
+    padding-right: 10px;
+    border-right: solid 3px rgb(26, 25, 25);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #f3f3f3;
+}
+
+.nav-link:hover {
+    color: #4cc7dd;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+
+.nav-link-final {
+    padding-right: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+    color: #f3f3f3;
+}
+
+.nav-link-final:hover {
+    color: #4cc7dd;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+
+/*------ Contenido ------*/
+
+.contenido {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #6a130d;
+    border-bottom: solid 2px #f3f3f3;
+    box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.7);
+    border-top: solid 1px #852a26;
+}
+
+/*------ Aside Izquierda - contenido ------*/
+.aside-izq {
+    width: 29%;
+    height: auto;
+    float: left;
+}
+
+.aside-izq-contenido1 {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.aside-izq-contenido1 img {
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.aside-izq-contenido1 h2 {
+    height: auto;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #f3f3f3;
+    font-weight: 500;
+}
+
+.aside-izq-contenido2 h5 {
+    height: auto;
+    margin-left: 15px;
+    color: #b6adad;
+    font-size: 15px;
+}
+
+.aside-izq-contenido2 img {
+    width: 240px;
+    height: 120px;
+    margin: 12px 0px 21px 15px;
+}
+
+.aside-izq-contenido2 img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+
+.aside-izq-login {
+    width: 85%;
+    height: auto;
+    background: #480a06;
+    padding: 0px 0px 30px 0px;
+    margin: 5px 0 50px 15px;
+    color: #f3f3f3;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.login-titulo {
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 15px;
+    background: #852a26;
+}
+
+.login-titulo h2 {
+    padding: 8px 0px 8px 5px;
+    color: #f3f3f3;
+    font-weight: 600;
+}
+
+.grupo {
+    margin: 12px 0px 5px 5px;
+
+}
+
+.grupo input {
+    margin-top: 8px;
+    width: 90%;
+    height: 36px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+
+    padding-inline-start: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #6a130d80;
+}
+
+.grupo2 {
+    margin-top: 20px;
+}
+
+.grupo2 a {
+    margin: 0px 10px 0px 5px;
+    color: #edeeb3;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.grupo2 button {
+    padding: 10px 15px 10px 15px;
+    margin: 0px 10px 0px 5px;
+    color: #f3f3f3;
+    background: #6b1f23;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.grupo2 button:hover {
+    background: #f3f3f3;
+    color: #6b1f23;
+    transition: all 0.5s;
+}
+
+.grupo2 a:hover {
+    color: #4cc7dd;
+    transition: all 0.4s;
+    text-decoration: underline;
+}
+
+/*------ Aside Medio - contenido ------*/
+.aside-medio {
+    width: 29%;
+    height: 900px;
+    float: left;
+
+}
+
+.aside-medio .eventos-contenedor {
+    width: 100%;
+    height: 48%;
+    float: left;
+    background: #3e0a07;
+}
+
+.eventos-titulo {
+    width: 100%;
+    height: auto;
+    margin: 25px 0px 10px 45px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f3f3f3;
+    float: left;
+}
+
+.eventos-titulo img {
+    width: 30px;
+    height: auto;
+    float: left;
+    margin: 8px 0px 8px 8px;
+}
+
+.eventos-titulo h2 {
+    width: 30px;
+    height: auto;
+    float: left;
+    margin: 13px 1px 8px 0px;
+}
+
+.aside-medio .glosario-contenedor {
+    width: 100%;
+    height: 48%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background: #3e0a07;
+}
+
+.eventos-fecha {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f3f3f3;
+    float: left;
+}
+
+.eventos-fecha p {
+    width: 50%;
+    height: 30px;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 3px 60px 3px 60px;
+    background: #54130f;
+    text-transform: uppercase;
+}
+
+.eventos-texto p {
+    width: 90%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #b6adad;
+}
+
+.glosario-titulo {
+    width: 100%;
+    height: auto;
+    margin: 25px 0px 10px 45px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f3f3f3;
+    float: left;
+}
+
+.glosario-titulo img {
+    width: 30px;
+    height: auto;
+    float: left;
+    margin: 8px 0px 8px 8px;
+}
+
+.glosario-titulo h2 {
+    width: 30px;
+    height: auto;
+    float: left;
+    margin: 13px 1px 8px 0px;
+}
+
+.glosario-texto p {
+    width: 90%;
+    display: block;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #b6adad;
+}
+
+
+/*------ Aside Derecha - contenido ------*/
+.aside-der {
+    width: 40%;
+    height: 900px;
+    float: left;
+    padding: 15px 5px 0px 14px;
+}
+
+.aside-der-titulo {
+    width: 100%;
+    height: auto;
+    margin: 15px 0px 15px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #f3f3f3;
+    text-transform: capitalize;
+    float: left;
+}
+
+.aside-der-titulo-hr {
+    width: 200px;
+    height: 1px;
+    float: right;
+    margin-top: 28px;
+    border: none;
+    border-top: 1px dotted;
+    border-color: #edeeb3;
+}
+
+.aside-der-subtitulo {
+    width: 100%;
+    height: auto;
+    margin: 15px 0px 15px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #edeeb3;
+    text-decoration: underline;
+}
+
+.aside-der-texto {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    color: #f3f3f3;
+}
+
+.aside-der-texto p {
+    padding: 10px 8px 5px 0px;
+}
+
+.aside-der-texto2 {
+    width: 100%;
+    height: auto;
+    font-weight: 300;
+    color: #f3f3f3;
+    background: #470905;
+    margin-bottom: 15px;
+}
+
+.aside-der-texto2 p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 5px 15px 10px;
+}
+
+.aside-der-texto3 {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    color: #f3f3f3;
+    margin-bottom: 50px;
+}
+
+.aside-der-texto3 p {
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin: 15px 0px 15px 5px;
+}
+
+/*------ Aside Derecha - Cajas ------*/
+.boxes {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.aside-der-box1 {
+    width: 190px;
+    height: 170px;
+    float: left;
+    margin-bottom: 20px;
+    background: #7e7053;
+    border-bottom: solid 8px rgb(111, 83, 62);
+}
+
+.aside-der-box1-texto p {
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #f3f3f3;
+    padding: 5px;
+}
+
+.aside-der-box1-texto img {
+    width: 4px;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+.aside-der-box1-titulo {
+    width: 100%;
+    height: 35px;
+    background: #080806;
+    color: #f3f3f3;
+}
+
+.aside-der-box1-titulo h2 {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.aside-der-box2 {
+    width: 190px;
+    height: 170px;
+    float: right;
+    margin-bottom: 20px;
+    background: #7e7053;
+    border-bottom: solid 8px rgb(111, 83, 62);
+}
+
+.aside-der-box2-titulo {
+    width: 100%;
+    height: 35px;
+    background: #080806;
+    color: #f3f3f3;
+}
+
+.aside-der-box2-titulo h2 {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.aside-der-box2-texto p {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 8px;
+    text-align: left;
+    color: #f3f3f3;
+}
+
+/*------ Footer ------*/
+
+.footer-contenedor {
+    width: 100%;
+    height: 100px;
+    float: left;
+    background: rgb(26, 5, 3);
+    padding: 15px 0px;
+}
+
+.footerbar {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 0 5px 7px;
+}
+
+.footerbar-link {
+    padding-right: 7px;
+    border-right: solid 3px #504e4e;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #f3f3f3;
+}
+
+.footerbar-link:hover {
+    color: #4cc7dd;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+
+.footerbar-link-final {
+    padding-right: 7px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+    color: #f3f3f3;
+}
+
+.footerbar-link-final:hover {
+    color: #4cc7dd;
+    font-size: 13px;
+    transition: all 0.5s;
+}
