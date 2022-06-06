@@ -15,7 +15,6 @@ body {
     width: 1000px;
     height: auto;
     margin: 2px auto;
-    background: #edeeb3;
 }
 
 /*------ Header - Navbar ------*/
@@ -39,7 +38,7 @@ body {
 
 .nav-link {
     padding-right: 10px;
-    border-right: solid 3px rgb(26, 25, 25);
+    border-right: solid 3px #1a1919;
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
@@ -179,14 +178,16 @@ input::placeholder {
     margin-top: 20px;
 }
 
-.grupo2 a {
+.grupo2 input {
     margin: 0px 10px 0px 5px;
     color: #edeeb3;
     font-size: 15px;
-    text-decoration: none;
+    background: #480a06;
+    border: none;
+    font-weight: 500;
 }
 
-.grupo2 button {
+.grupo2 .login-button {
     padding: 10px 15px 10px 15px;
     margin: 0px 10px 0px 5px;
     color: #f3f3f3;
@@ -202,11 +203,56 @@ input::placeholder {
     transition: all 0.5s;
 }
 
-.grupo2 a:hover {
+.grupo2 input:hover {
     color: #4cc7dd;
     transition: all 0.4s;
     text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
 }
+
+/*------ Validaciones del formulario ------*/
+
+
+.grupo.error input {
+    background-color: #ff1919;
+    border: solid 1px #e9d526;
+
+}
+
+.grupo.correcto input {
+    border: solid 3px #20b413;
+}
+
+input::placeholder {
+    padding-inline-start: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff80;
+}
+
+.grupo.error span {
+    visibility: visible;
+    font-size: 12px;
+    font-weight: 700;
+    color: #e9d526;
+}
+
+.grupo.correcto span {
+    visibility: hidden;
+    display: none;
+}
+
+.envioExitoso {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+    color: #0cf82c;
+    text-align: center;
+}
+
 
 /*------ Aside Medio - contenido ------*/
 .aside-medio {
@@ -422,7 +468,7 @@ input::placeholder {
     float: left;
     margin-bottom: 20px;
     background: #7e7053;
-    border-bottom: solid 8px rgb(111, 83, 62);
+    border-bottom: solid 8px #6f533e;
 }
 
 .aside-der-box1-texto p {
@@ -458,7 +504,7 @@ input::placeholder {
     float: right;
     margin-bottom: 20px;
     background: #7e7053;
-    border-bottom: solid 8px rgb(111, 83, 62);
+    border-bottom: solid 8px #6f533e;
 }
 
 .aside-der-box2-titulo {
@@ -488,7 +534,7 @@ input::placeholder {
     width: 100%;
     height: 100px;
     float: left;
-    background: rgb(26, 5, 3);
+    background: #1a0503;
     padding: 15px 0px;
 }
 

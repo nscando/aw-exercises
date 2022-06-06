@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segundo Desemp TP2</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="contenedor-global">
+    <!-- Header -->
+    <div class="header">
+      <header>
+        <div class="header-contenedor">
+          <nav>
+            <section class="hero-img">
+              <div class="hero">
+                <img src="./img/headerinside.jpg" alt="">
+              </div>
+            </section>
+
+            <section class="navbar-contenedor">
+              <div class="navbar">
+                <ul>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Testimonios </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Soporte</a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Soluciones </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Nosotros </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Bodegas </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Productos </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Eventos </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Chat </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Blogs </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link" href="/">Noticias </a>
+                  </li>
+                  <li class="navbar">
+                    <a class="nav-link-final" href="/">Servicios </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+          </nav>
+        </div>
+
+      </header>
+
+    </div>
+
+
+
+    <!-- Contenido -->
+    <div class="contenido">
+
+      <!-- Aside Izquierda -->
+      <div class="aside-izq">
+        <div class="eventos-contenedor">
+          <div class="eventos-titulo">
+            <img src="./img/event_icon.gif" alt="">
+            <h2>Eventos</h2>
+          </div>
+          <div class="eventos-fecha">
+            <p id="prueba">Mayo 2011</p>
+          </div>
+          <div class="eventos-texto">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas esse rerum aspernatur nostrum
+              voluptate
+              commodi eos dolores vitae ducimus. Ipsam corporis cumque saepe, quibusdam id adipisci
+              debitis at
+              voluptatum tempore aspernatur deleniti. Optio molestias debitis consectetur est aperiam,
+              soluta
+              explicabo
+            </p>
+          </div>
+        </div>
+
+        <div class="glosario-contenedor">
+          <div class="glosario-titulo">
+            <img src="./img/service.gif" alt="">
+            <h2>Glosario</h2>
+          </div>
+
+          <div class="glosario-texto">
+            <p>Enologo: <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas esse rerum
+              aspernatur
+              nostrum voluptate
+              commodi eos dolores vitae ducimus. Ipsam corporis cumque saepe, quibusdam id adipisci
+              debitis at
+              voluptatum tempore aspernatur deleniti. Optio molestias debitis consectetur est aperiam,
+              soluta
+              explicabo
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aside Derecha -->
+      <div class="aside-der">
+        <div class="aside-der-titulo">
+          <h1>Contactenos</h1>
+
+        </div>
+        <div class="aside-der-info">
+          <p>Alvear 2701</p><br>
+
+
+          <p>Telefono: 45678910</p>
+          <p>Fax: 123345567</p>
+          <br>
+
+          <p>Horario de atencion: 8.30 a 17hs</p>
+          <p>Email: contacto@vinos.com.ar</p>
+
+        </div>
+        <form onsubmit="return validar()" id="formulario" action="" method="post">
+          <div class="aside-der-form">
+            <div class="aside-der-form-titulo">
+              <h3>* Campos obligatorios</h3>
+            </div>
+
+            <div class="aside-der-form-input">
+              <label>Destinatario:</label>
+              <select name="destinatario" id="destinatario">
+                <option selected="selected" value="Sr.">Sr.</option>
+                <option value="Sra.">Sra.</option>
+              </select>
+            </div>
+
+            <div class="aside-der-form-input">
+              <label>Apellido y Nombre: <span>*</span></label>
+              <input type="text" maxlength="25" name="nombre" id="nombre">
+              <p class="aviso"></p>
+            </div>
+
+            <div class="aside-der-form-input">
+              <label>Razon Social:</label>
+              <input type="text" name="rsocial" id="rsocial" style="text-transform:uppercase">
+            </div>
+
+            <div class="aside-der-form-input">
+              <label>Email: <span>*</span></label>
+              <input type="email" minlength="2" maxlength="25" name="text" id="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+              <p class="aviso"></p>
+            </div>
+
+            <div class="aside-der-form-input">
+              <label>Telefono: <span>*</span></label>
+              <input type="tel" id="telefono" name="telefono" onchange="formatearTelefono()">
+              <p class="aviso"></p>
+            </div>
+
+            <div class="aside-der-form-input">
+              <label>Celular:</label>
+              <input type="tel" id="celular" name="celular">
+            </div>
+
+            <div class="aside-der-form-input">
+              <label>Via de contacto:</label>
+              <select name="via-contacto" id="viaContacto">
+                <option selected="selected" value="email">Email</option>
+                <option value="telefono">Telefono</option>
+                <option value="celular">Celular</option>
+              </select>
+            </div>
+
+            <div class="aside-der-form-input">
+              <label>Comentarios:</label>
+              <textarea name="mensaje" maxlength="300" placeholder=" Tus comentarios aqui..." id="mensaje" cols="50"
+                rows="15"></textarea>
+            </div>
+
+            <div class="aside-der-form-input">
+              <button type="submit" value="Enviar">Enviar </button>
+            </div>
+          </div>
+        </form>
+
+        <p id="envioExitoso" class="aviso2"></p>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-contenedor">
+        <ul>
+          <li class="footerbar">
+            <a class="footerbar-link" href="/">Testimonios </a>
+          </li>
+          <li class="footerbar">
+            <a class="footerbar-link" href="/">Soporte</a>
+          </li>
+          <li class="footerbar">
+            <a class="footerbar-link" href="/">Soluciones </a>
+          </li>
+          <li class="footerbar">
+            <a class="footerbar-link" href="/">Nosotros </a>
+          </li>
+          <li class="footerbar">
+            <a class="footerbar-link" href="/">Chat </a>
+          </li>
+          <li class="footerbar">
+            <a class="footerbar-link" href="/">Productos </a>
+          </li>
+          <li class="footerbar">
+            <a class="footerbar-link" href="/">Noticias </a>
+          </li>
+          <li class="footerbar">
+            <a class="footerbar-link-final" href="/">Contacto </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

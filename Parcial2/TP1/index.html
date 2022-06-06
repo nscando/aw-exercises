@@ -98,25 +98,30 @@
           <div class="login-titulo">
             <h2>Usuarios</h2>
           </div>
-          <form action="#" method="post">
+          <form id="formulario" onsubmit="return validar()" action="" method="post">
             <div class="login">
 
               <div class="grupo">
                 <p>Nombre:</p>
-                <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"> <br>
+                <span></span>
               </div>
               <div class="grupo">
                 <p>Email:</p>
-                <input type="email" name="nombre" placeholder="Ingresa tu email" required>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu email"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> <br>
+                <span></span>
               </div>
             </div>
 
             <div class="grupo2">
-              <a href="#">Suscribite ahora!</a>
+
+              <input class="suscribirse" type="submit" value="Suscribite ahora!">
+
               <button class="login-button" type="submit">Login</button>
             </div>
           </form>
-
+          <p id="envioExitoso" class="envioExitoso"></p>
         </div>
 
       </div>
@@ -245,11 +250,13 @@
             <a class="footerbar-link" href="/">Noticias </a>
           </li>
           <li class="footerbar">
-            <a class="footerbar-link-final" href="/">Contacto </a>
+            <a class="footerbar-link-final" href="../TP2/index.html">Contacto </a>
           </li>
         </ul>
       </div>
     </footer>
+
+    <script src="./index.js"></script>
 
 </body>
 
