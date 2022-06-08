@@ -85,14 +85,12 @@
             <p id="prueba">Mayo 2011</p>
           </div>
           <div class="eventos-texto">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas esse rerum aspernatur nostrum
-              voluptate
-              commodi eos dolores vitae ducimus. Ipsam corporis cumque saepe, quibusdam id adipisci
-              debitis at
-              voluptatum tempore aspernatur deleniti. Optio molestias debitis consectetur est aperiam,
-              soluta
-              explicabo
+            <p>Se celebra en la Provincia de Mendoza, el primer fin de semana de marzo (casi sin interrupciones desde
+              1936) y se trata del homenaje que el hombre le dedica a su principal industria: la vitivinicola.
             </p>
+          </div>
+          <div class="eventos-hr">
+            <hr>
           </div>
         </div>
 
@@ -103,14 +101,9 @@
           </div>
 
           <div class="glosario-texto">
-            <p>Enologo: <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas esse rerum
-              aspernatur
-              nostrum voluptate
-              commodi eos dolores vitae ducimus. Ipsam corporis cumque saepe, quibusdam id adipisci
-              debitis at
-              voluptatum tempore aspernatur deleniti. Optio molestias debitis consectetur est aperiam,
-              soluta
-              explicabo
+            <p>Enológo: <br> Experto responsable de dirigir y asesorar en el proceso de elaboracion del vino y su
+              almacenaje, analisis, conservacion, embotellados y comercializacion. Estudia asimismo el proceso del
+              cultivo de la vid, asi como los suelos aptos para determinados cepajes y otros temas vinculados.
             </p>
           </div>
         </div>
@@ -150,7 +143,7 @@
 
             <div class="aside-der-form-input">
               <label>Apellido y Nombre: <span>*</span></label>
-              <input type="text" maxlength="25" name="nombre" id="nombre">
+              <input type="text" minlength="3" maxlength="40" name="nombre" id="nombre">
               <p class="aviso"></p>
             </div>
 
@@ -161,20 +154,20 @@
 
             <div class="aside-der-form-input">
               <label>Email: <span>*</span></label>
-              <input type="email" minlength="2" maxlength="25" name="text" id="email"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+              <input type="email" name="text" id="email"
+                pattern="[A-Z0-9._%+-]+[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
               <p class="aviso"></p>
             </div>
 
             <div class="aside-der-form-input">
               <label>Telefono: <span>*</span></label>
-              <input type="tel" id="telefono" name="telefono" onchange="formatearTelefono()">
+              <input type="tel" id="telefono" name="telefono">
               <p class="aviso"></p>
             </div>
 
             <div class="aside-der-form-input">
               <label>Celular:</label>
-              <input type="tel" id="celular" name="celular">
+              <input type="tel" id="celular" name="celular" onchange="formatearCelular()">
             </div>
 
             <div class="aside-der-form-input">
@@ -197,7 +190,6 @@
             </div>
           </div>
         </form>
-
         <p id="envioExitoso" class="aviso2"></p>
       </div>
     </div>
@@ -229,10 +221,16 @@
             <a class="footerbar-link" href="/">Noticias </a>
           </li>
           <li class="footerbar">
-            <a class="footerbar-link-final" href="/">Contacto </a>
+            <a class="footerbar-link" href="/">Contacto </a>
           </li>
+          <li class="footerbar">
+            <a class="footerbar-link-final" href="../TP1/index.html">Volver </a>
+          </li>
+
         </ul>
+
       </div>
+
     </footer>
 
   </div>

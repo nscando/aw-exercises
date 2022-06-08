@@ -1,7 +1,5 @@
 
-
 window.addEventListener('load', validar);
-
 
 function validar() {
 
@@ -16,9 +14,7 @@ function validar() {
     //que se genera al presionar el boton submit
     formulario.addEventListener('submit', function (evento) {
         evento.preventDefault();
-
         validarCamposFormulario();
-
     })
 
     function validarCamposFormulario() {
@@ -26,42 +22,35 @@ function validar() {
         var emailValor = email.value;
         var telefonoValor = telefono.value;
 
+
         //Validacion de campo nombre
-        if (!nombreValor || nombreValor.indexOf(" ") == 0) {
-            console.log("nombre vacio");
+        if (!nombreValor) {
             validarError(nombre, "El campo Nombre y Apellido es obligatorio");
         } else {
-            console.log(nombreValor);
             validarCorrecto(nombre);
+
         }
 
         //Validacion de campo email
         if (!emailValor || emailValor.indexOf(" ") == 0) {
-            console.log("email vacio");
             validarError(email, "El campo Email es obligatorio!");
         } else {
-            console.log(emailValor);
             validarCorrecto(email);
         }
 
         //Validacion de campo telefono
         if (!telefonoValor || telefonoValor.indexOf(" ") == 0) {
-            console.log("telefono vacio");
             validarError(telefono, "El campo Telefono es obligatorio!");
         } else {
-            console.log(telefonoValor);
             validarCorrecto(telefono);
         }
 
-        //Si todos los campos son validos mostrar mensaje de exito y resetear formulario
+        //Si todos los campos son validos mostrar mensaje de exito
         if (nombreValor && emailValor && telefonoValor) {
             var envioExitoso = document.getElementById("envioExitoso");
-            envioExitoso.innerText = "Formulario enviado correctamente!";
-
+            envioExitoso.innerHTML = "Los datos han sido enviados en forma exitosa!";
         }
-
     }
-
 
 }
 
@@ -70,27 +59,26 @@ function validarError(input, mensaje) {
     //para posteriormente poder mostrar el mensaje de error y cambiar el color del elemento
     var formularioControl = input.parentElement;
     var aviso = formularioControl.querySelector("p");
-    aviso.innerText = mensaje;
-
+    aviso.innerHTML = mensaje;
     formularioControl.className = "formulario-control error";
 }
 
 function validarCorrecto(input) {
     var formularioControl = input.parentElement;
     formularioControl.className = "formulario-control correcto";
-
 }
 
-function formatearTelefono() {
-    var telefono = document.getElementById("telefono");
-    var telefonoValor = telefono.value;
-    var telefonoFormateado = "";
+function formatearCelular() {
+    var celular = document.getElementById("celular");
+    var celularValor = celular.value;
+    var celularFormateado = "";
 
-    if (telefonoValor.length <= 4) {
-        telefonoFormateado = "(" + telefonoValor + ")";
-    } else if (telefonoValor.length <= 12) {
-        telefonoFormateado = "(" + telefonoValor.substring(0, 4) + ") " + telefonoValor.substring(4, 6) + "-" + telefonoValor.substring(6, 12);
+    if (celularValor.length <= 4) {
+        celularFormateado = "(" + celularValor + ")";
+    } else if (celularValor.length <= 12) {
+        celularFormateado = "(" + celularValor.substring(0, 4) + ") " + celularValor.substring(4, 6) + "-" + celularValor.substring(6, 12);
     }
 
-    document.getElementById("telefono").value = telefonoFormateado;
+    document.getElementById("celular").value = celularFormateado;
 }
+

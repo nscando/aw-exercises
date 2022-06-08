@@ -73,7 +73,7 @@ body {
     float: left;
     background-color: #6a130d;
     border-bottom: solid 2px #f3f3f3;
-    box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 20px 8px rgba(0, 0, 0, 0.7);
     border-top: solid 1px #852a26;
 }
 
@@ -272,7 +272,7 @@ input::placeholder {
 .eventos-titulo {
     width: 100%;
     height: auto;
-    margin: 25px 0px 10px 45px;
+    margin: 25px 0px 10px 60px;
     font-size: 15px;
     font-weight: 600;
     color: #f3f3f3;
@@ -307,16 +307,16 @@ input::placeholder {
     height: 50px;
     font-size: 15px;
     font-weight: 600;
-    color: #f3f3f3;
+    color: #e44d4d;
     float: left;
+    margin-top: 10px;
 }
 
 .eventos-fecha p {
     width: 50%;
     height: 30px;
     display: inline;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 45px;
     padding: 3px 60px 3px 60px;
     background: #54130f;
     text-transform: uppercase;
@@ -327,17 +327,22 @@ input::placeholder {
     display: block;
     float: left;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size: 15px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    margin-top: 5px;
     color: #b6adad;
+}
+
+.eventos-texto {
+    padding: 30px;
 }
 
 .glosario-titulo {
     width: 100%;
     height: auto;
-    margin: 25px 0px 10px 45px;
+    margin: 25px 0px 10px 60px;
     font-size: 15px;
     font-weight: 600;
     color: #f3f3f3;
@@ -364,12 +369,15 @@ input::placeholder {
     float: left;
     text-align: left;
     padding: 10px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
     color: #b6adad;
 }
 
+.glosario-texto {
+    padding: 20px;
+}
 
 /*------ Aside Derecha - contenido ------*/
 .aside-der {
@@ -414,9 +422,9 @@ input::placeholder {
     width: 100%;
     height: auto;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     text-align: justify;
-    color: #f3f3f3;
+    color: #000000;
 }
 
 .aside-der-texto p {
@@ -441,17 +449,16 @@ input::placeholder {
 .aside-der-texto3 {
     width: 100%;
     height: auto;
-    font-size: 15px;
-    font-weight: 300;
-    text-align: left;
-    color: #f3f3f3;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .aside-der-texto3 p {
-    letter-spacing: 1px;
-    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
     margin: 15px 0px 15px 5px;
+    color: #000000;
+    text-align: left;
+    font-size: 15px;
 }
 
 /*------ Aside Derecha - Cajas ------*/
@@ -482,7 +489,8 @@ input::placeholder {
 .aside-der-box1-texto img {
     width: 4px;
     height: auto;
-    margin-bottom: 1px;
+    margin-right: 2px;
+    margin-top: 1px;
 }
 
 .aside-der-box1-titulo {
@@ -521,11 +529,22 @@ input::placeholder {
 }
 
 .aside-der-box2-texto p {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     padding: 8px;
     text-align: left;
     color: #f3f3f3;
+}
+
+.aside-der-box2-texto a {
+    color: #061385;
+    text-decoration: none;
+}
+
+.aside-der-box2-texto a:hover {
+    font-size: 13px;
+    color: #3647e7;
+    text-decoration: underline;
 }
 
 /*------ Footer ------*/

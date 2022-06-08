@@ -16,37 +16,45 @@ function validar() {
         evento.preventDefault();
 
         validarCamposFormulario();
+        // validarNombre();
     })
+
 
     function validarCamposFormulario() {
         var nombreValor = nombre.value;
         var emailValor = email.value;
+        var contador = 0;
 
-        //Validacion de campo nombre
-        if (!nombreValor || nombreValor.indexOf(" ") == 0) {
-            validarError(nombre, "El campo Nombre es obligatorio");
-        } else {
-            validarCorrecto(nombre);
+        while (contador == 0) {
+            //Validacion de campo nombre
+            if (!nombreValor || nombreValor.indexOf(" ") != -1) {
+                contador++;
+                validarError(nombre, "El campo Nombre es obligatorio y no debe contener espacios");
+            } else {
+                validarCorrecto(nombre);
+                contador--;
+            }
+
+            //Validacion de campo email
+            if (!emailValor || emailValor.indexOf(" ") != -1) {
+                validarError(email, "El campo Email es obligatorio!");
+                contador++;
+            } else {
+                validarCorrecto(email);
+                contador--;
+            }
+            contador++;
         }
-
-        //Validacion de campo email
-        if (!emailValor || emailValor.indexOf(" ") == 0) {
-            validarError(email, "El campo Email es obligatorio!");
-        } else {
-            validarCorrecto(email);
-        }
-
         //Si todos los campos son validos mostrar mensaje de exito y resetear formulario
-        if (nombreValor && emailValor) {
+        if (contador < 0) {
             var envioExitoso = document.getElementById("envioExitoso");
-            envioExitoso.innerText = "Formulario enviado correctamente!";
-            formulario.reset();
+            envioExitoso.innerHTML = "Formulario enviado correctamente!";
         }
 
     }
-
-
 }
+
+
 
 function validarError(input, mensaje) {
     //Utilizo la propiedad parentElement para obtener el padre del elemento especificado
