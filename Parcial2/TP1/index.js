@@ -1,13 +1,11 @@
 window.addEventListener('load', validar);
 
-
 function validar() {
 
     //Guardar los elementos del formulario en variables
     var formulario = document.getElementById("formulario");
     var nombre = document.getElementById("nombre");
     var email = document.getElementById("email");
-
 
 
     //Previene el comportamiento por defecto 
