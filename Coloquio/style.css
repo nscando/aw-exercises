@@ -2,381 +2,381 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+ margin: 0;
+ padding: 0;
 }
 
 body {
-    width: 100%;
-    height: auto;
-    background: #2e5f84;
-    font-family: 'Roboto Mono', monospace;
+ width: 100%;
+ height: auto;
+ background: #2e5f84;
+ font-family: 'Roboto Mono', monospace;
 }
 
 /*------ Contenedor Global ------*/
 .contenedor-global {
-    width: 960px;
-    height: 3500px;
+ width: 960px;
+ height: 3500px;
 
-    margin: 1px auto;
+ margin: 1px auto;
 }
 
 /*------ Contenedor Global ------*/
 
 .header-contenedor {
-    width: 18%;
-    height: auto;
-    float: left;
+ width: 18%;
+ height: auto;
+ float: left;
 }
 
 .header-nabvar {
-    width: 100%;
-    height: 500px;
-    background: #2d2d2e;
-    padding: 20px;
+ width: 100%;
+ height: 500px;
+ background: #2d2d2e;
+ padding: 20px;
 }
 
 .navbar ul li {
-    display: block;
-    margin: 12px 5px;
-    list-style: none;
-    text-align: left;
+ display: block;
+ margin: 12px 5px;
+ list-style: none;
+ text-align: left;
 }
 
 header a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    margin-right: 20px;
+ text-decoration: none;
+ color: #fff;
+ text-transform: uppercase;
+ margin-right: 20px;
 }
 
 header a:hover {
-    color: #6e9dbe;
-    cursor: pointer;
-    transition: all 0.3s;
+ color: #6e9dbe;
+ cursor: pointer;
+ transition: all 0.3s;
 }
 
 /*------ Contenedor Contenido ------*/
 
 .contenido {
-    width: 80%;
-    height: auto;
-    float: right;
-    background: #6e9dbe;
+ width: 80%;
+ height: auto;
+ float: right;
+ background: #6e9dbe;
 
 }
 
 .hero-img {
-    width: 100%;
-    height: auto;
+ width: 100%;
+ height: auto;
 }
 
 .hero-img img {
-    width: 700px;
-    height: 300px;
-    margin: 20px 20px 20px 30px;
-    border: solid 3px #0e0d0d;
+ width: 700px;
+ height: 300px;
+ margin: 20px 20px 20px 30px;
+ border: solid 3px #0e0d0d;
 }
 
 
 /*------ Nosotros ------*/
 
 .nosotros {
-    width: 92%;
-    height: auto;
-    margin: 30px 0px 100px 50px;
+ width: 92%;
+ height: auto;
+ margin: 30px 0px 100px 50px;
 }
 
 .titulo {
-    width: 100%;
-    height: auto;
-    text-align: left;
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+ width: 100%;
+ height: auto;
+ text-align: left;
+ font-size: 35px;
+ color: #fff;
+ margin-bottom: 5px;
+ text-transform: uppercase;
 }
 
 hr {
-    width: 700px;
-    height: auto;
-    border: solid 1px #fff;
+ width: 700px;
+ height: auto;
+ border: solid 1px #fff;
 }
 
 .nosotros-texto {
-    width: 100%;
-    height: auto;
-    margin: 20px 0px 50px 0px;
-    text-align: left;
-    font-size: 15px;
-    color: #fff;
+ width: 100%;
+ height: auto;
+ margin: 20px 0px 50px 0px;
+ text-align: left;
+ font-size: 15px;
+ color: #fff;
 }
 
 .porque-subtitulo {
-    font-size: 25px;
-    text-transform: uppercase;
-    color: rgb(38, 68, 97);
+ font-size: 25px;
+ text-transform: uppercase;
+ color: #264461;
 }
 
 .porque-opciones {
-    width: 100%;
-    height: auto;
+ width: 100%;
+ height: auto;
 
 }
 
 .porque-opciones .opcion {
-    width: 43%;
-    height: auto;
-    display: inline-block;
-    margin: 20px;
-    text-align: left;
-    font-size: 12px;
-    color: #fff;
+ width: 43%;
+ height: auto;
+ display: inline-block;
+ margin: 20px;
+ text-align: left;
+ font-size: 12px;
+ color: #fff;
 
 }
 
 .opcion-subtitulo {
-    text-transform: uppercase;
-    color: #264461;
-    font-size: 20px;
-    margin-bottom: 5px;
+ text-transform: uppercase;
+ color: #264461;
+ font-size: 20px;
+ margin-bottom: 5px;
 }
 
 .opcion img {
-    width: 60px;
-    height: 60px;
-    float: left;
-    margin: 30px 10px;
+ width: 60px;
+ height: 60px;
+ float: left;
+ margin: 30px 10px;
 }
 
 .opcion-texto {
-    margin-top: 5px;
+ margin-top: 5px;
 }
 
 /*------ Proyectos ------*/
 .proyectos {
-    width: 92%;
-    height: auto;
-    margin: 30px 0px 20px 50px;
+ width: 92%;
+ height: auto;
+ margin: 30px 0px 20px 50px;
 }
 
 
 .proyectos-titulo {
-    width: 90%;
-    height: auto;
-    text-align: left;
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+ width: 90%;
+ height: auto;
+ text-align: left;
+ font-size: 35px;
+ color: #fff;
+ margin-bottom: 5px;
+ text-transform: uppercase;
 }
 
 .proyectos-texto {
-    width: 100%;
-    height: auto;
-    margin: 20px 0px 10px 0px;
-    text-align: left;
-    font-size: 15px;
-    color: #fff;
+ width: 100%;
+ height: auto;
+ margin: 20px 0px 10px 0px;
+ text-align: left;
+ font-size: 15px;
+ color: #fff;
 }
 
 .proyectos-img-contenedor {
-    width: 30%;
-    height: auto;
-    margin: 10px;
-    float: left;
+ width: 30%;
+ height: auto;
+ margin: 10px;
+ float: left;
 
 }
 
 .proyectos-img-contenedor img {
-    width: 210px;
-    height: 160px;
-    border: solid 3px #ffffff;
-    padding: 2px;
-    background-color: #ffffff;
+ width: 210px;
+ height: 160px;
+ border: solid 3px #ffffff;
+ padding: 2px;
+ background-color: #ffffff;
 }
 
 
 /*------ Servicios ------*/
 .servicios {
-    width: 92%;
-    height: auto;
-    margin: 30px 0px 40px 50px;
-    float: right;
+ width: 92%;
+ height: auto;
+ margin: 30px 0px 40px 50px;
+ float: right;
 }
 
 
 .servicios-titulo {
-    width: 100%;
-    height: auto;
-    text-align: left;
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+ width: 100%;
+ height: auto;
+ text-align: left;
+ font-size: 35px;
+ color: #fff;
+ margin-bottom: 5px;
+ text-transform: uppercase;
 }
 
 .servicios-texto {
-    width: 100%;
-    height: auto;
-    margin: 20px 0px 10px 0px;
-    text-align: left;
-    font-size: 15px;
-    color: #fff;
+ width: 100%;
+ height: auto;
+ margin: 20px 0px 10px 0px;
+ text-align: left;
+ font-size: 15px;
+ color: #fff;
 }
 
 .servicios-img-contenedor {
-    width: 23%;
-    height: auto;
-    padding: 5px;
-    float: left;
-    border: solid 1px rgba(71, 69, 69, 0.22);
+ width: 23%;
+ height: auto;
+ padding: 5px;
+ float: left;
+ border: solid 1px rgba(71, 69, 69, 0.22);
 }
 
 .servicios-img-contenedor img {
-    width: 150px;
-    height: 120px;
-    padding: 2px;
+ width: 150px;
+ height: 120px;
+ padding: 2px;
 }
 
 .servicios-img-contenedor p {
-    font-size: 12px;
-    color: #fff;
-    text-align: center;
-    margin: 10px;
-    font-weight: 700;
+ font-size: 12px;
+ color: #fff;
+ text-align: center;
+ margin: 10px;
+ font-weight: 700;
 }
 
 
 
 /*------ Formulario ------*/
 .formulario-contenedor {
-    width: 92%;
-    height: auto;
-    margin: 30px 0px 20px 40px;
-    float: right;
+ width: 92%;
+ height: auto;
+ margin: 30px 0px 20px 40px;
+ float: right;
 }
 
 .formulario-titulo {
-    width: 80%;
-    height: auto;
-    text-align: left;
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+ width: 80%;
+ height: auto;
+ text-align: left;
+ font-size: 35px;
+ color: #fff;
+ margin-bottom: 5px;
+ text-transform: uppercase;
 }
 
 form {
-    width: 100%;
-    height: auto;
-    margin: 30px 0px 0px 0px;
-    border-radius: 5px;
+ width: 100%;
+ height: auto;
+ margin: 30px 0px 0px 0px;
+ border-radius: 5px;
 }
 
 .input input {
-    width: 90%;
-    height: 35px;
-    margin: 1px;
-    background-color: #2e5f84;
-    border: solid 1px rgba(255, 255, 255, 0.096);
-    padding: 5px;
-    font-size: 16px;
-    border-radius: 5px;
-    font-weight: 700;
-    color: #fffd7c;
+ width: 90%;
+ height: 35px;
+ margin: 1px;
+ background-color: #2e5f84;
+ border: solid 1px rgba(255, 255, 255, 0.096);
+ padding: 5px;
+ font-size: 16px;
+ border-radius: 5px;
+ font-weight: 700;
+ color: #fffd7c;
 }
 
 .input textarea {
-    width: 90%;
-    height: auto;
-    margin: 1px;
-    background-color: #2e5f84;
-    border: solid 1px rgba(255, 255, 255, 0.096);
-    padding: 5px;
-    font-size: 16px;
-    border-radius: 5px;
-    color: #fffd7c;
+ width: 90%;
+ height: auto;
+ margin: 1px;
+ background-color: #2e5f84;
+ border: solid 1px rgba(255, 255, 255, 0.096);
+ padding: 5px;
+ font-size: 16px;
+ border-radius: 5px;
+ color: #fffd7c;
 }
 
 input::placeholder {
-    color: #fff;
-    padding: 5px;
-    font-style: italic;
+ color: #fff;
+ padding: 5px;
+ font-style: italic;
 }
 
 textarea::placeholder {
-    color: #fff;
-    padding: 5px;
-    font-style: italic;
-    font-size: 18px;
+ color: #fff;
+ padding: 5px;
+ font-style: italic;
+ font-size: 18px;
 }
 
 .input-button input {
-    width: 120px;
-    height: 35px;
-    margin: 0px 58px;
-    background-color: #264c69;
-    border: solid 1px rgba(255, 255, 255, 0.096);
-    padding: 5px;
-    font-size: 16px;
-    border-radius: 5px;
-    font-weight: 600;
-    color: #ffffff;
-    float: right;
+ width: 120px;
+ height: 35px;
+ margin: 0px 58px;
+ background-color: #264c69;
+ border: solid 1px rgba(255, 255, 255, 0.096);
+ padding: 5px;
+ font-size: 16px;
+ border-radius: 5px;
+ font-weight: 600;
+ color: #ffffff;
+ float: right;
 }
 
 .input-button input:hover {
-    background-color: #ffffff;
-    color: #2e5f84;
-    cursor: pointer;
+ background-color: #ffffff;
+ color: #2e5f84;
+ cursor: pointer;
 }
 
 /*------ Redes Sociales ------*/
 .redes-sociales {
-    width: 92%;
-    height: 100px;
-    margin: 100px 0px 20px 250px;
+ width: 92%;
+ height: 100px;
+ margin: 100px 0px 20px 250px;
 }
 
 .iconos-redes {
-    width: 180px;
-    height: 50px;
-    margin: 20px;
-    text-align: left;
-    font-size: 15px;
-    background: #1b3549;
-    border-radius: 25px;
+ width: 180px;
+ height: 50px;
+ margin: 20px;
+ text-align: left;
+ font-size: 15px;
+ background: #1b3549;
+ border-radius: 25px;
 
 }
 
 .iconos-redes a {
-    text-decoration: none;
+ text-decoration: none;
 }
 
 .iconos-redes img {
-    width: 40px;
-    height: 40px;
-    margin: 5px 5px 3px 8px;
+ width: 40px;
+ height: 40px;
+ margin: 5px 5px 3px 8px;
 }
 
 
 /*------ Copyright ------*/
 
 .copyright-contenedor {
-    width: 92%;
-    height: auto;
-    margin-bottom: 20px;
-    float: right;
+ width: 92%;
+ height: auto;
+ margin-bottom: 20px;
+ float: right;
 }
 
 .copyright {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-size: 15px;
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 800;
+ width: 100%;
+ height: auto;
+ text-align: center;
+ font-size: 15px;
+ color: #fff;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-weight: 800;
 }

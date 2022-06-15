@@ -58,6 +58,7 @@ function validarError(input, mensaje) {
     //Utilizo la propiedad parentElement para obtener el padre del elemento especificado
     //para posteriormente poder mostrar el mensaje de error y cambiar el color del elemento
     var formularioControl = input.parentElement;
+    console.log(formularioControl);
     var aviso = formularioControl.querySelector("p");
     aviso.innerHTML = mensaje;
     formularioControl.className = "formulario-control error";
